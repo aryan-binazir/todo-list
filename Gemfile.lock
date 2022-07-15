@@ -4,7 +4,10 @@ GEM
     backports (3.23.0)
     erubis (2.7.0)
     multi_json (1.15.0)
+    nio4r (2.5.8)
     pg (1.4.1)
+    puma (5.6.4)
+      nio4r (~> 2.0)
     rack (1.6.13)
     rack-protection (1.5.5)
       rack
@@ -24,16 +27,17 @@ GEM
     tilt (2.0.10)
 
 PLATFORMS
-  ruby
+  arm64-darwin-21
 
 DEPENDENCIES
   erubis
   pg
+  puma
   sinatra (~> 1.4.7)
   sinatra-contrib
 
 RUBY VERSION
-   ruby 2.7.6p219
+   ruby 3.1.2p20
 
 BUNDLED WITH
-   2.1.4
+   2.3.7
