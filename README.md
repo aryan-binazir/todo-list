@@ -1,2 +1,2 @@
 # todo-list
-Todo list built using Ruby and Sinatra
+Todo list built using Ruby, PostgreSQL and Sinatra.
