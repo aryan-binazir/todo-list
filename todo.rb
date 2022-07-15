@@ -10,7 +10,7 @@ configure do
 end
 
 configure(:development) do
-  require "sinatra/reloader"
+  require "sinatra/reloader" if development?
   also_reload "database_persistence.rb"
 end
 
